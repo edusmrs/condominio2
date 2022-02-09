@@ -7,7 +7,7 @@
         <action>EstadoList</action>
         <icon>fas:adjust fa-fw #ffa500</icon>
       </menuitem>
-      <menuitem label="Cadstro Cidades">
+      <menuitem label="Cadastro Cidades">
         <action>CidadeList</action>
         <icon>fas:adjust fa-fw #ffa500</icon>
       </menuitem>
@@ -64,6 +64,27 @@
       <menuitem label="Contas a Receber">
         <action>ContaReceberList</action>
         <icon>fas:cash-register fa-fw #009688</icon>
+      </menuitem>
+      <menuitem label="Contas Dashboard">
+        <action>ContasDashboard</action>
+        <icon>far:money-bill-alt fa-fw #993399</icon>
+      </menuitem>
+      <menuitem label="Boletos">
+        <action>BoletoForm</action>
+        <icon>fas:bold fa-fw #FFC0CB</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Relatórios">
+    <icon>fas:biohazard fa-fw #FFE821</icon>
+    <menu>
+      <menuitem label="Pagamentos Mensal">
+        <action>RelatorioContaPagar</action>
+        <icon>fas:biohazard fa-fw #FF9800</icon>
+      </menuitem>
+      <menuitem label="Recebimentos Mensal">
+        <action>RelatorioContaReceber</action>
+        <icon>fas:biohazard fa-fw #FF9800</icon>
       </menuitem>
     </menu>
   </menuitem>
